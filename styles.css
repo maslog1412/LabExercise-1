@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-image: url('/images/background-image.jpg');
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    background-color: #dddddd;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 2px;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #597aed;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #1226ed;
+    color: white;
+}
+
+form input[type=search] {
+    width: 220px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    margin-right: 0;
+    margin-left: 1%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+article {
+    text-align: justify;
+}
+
+footer {
+    background-color: white;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.footer div.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer p {
+    text-align: center;
+    margin: 0;
+}
